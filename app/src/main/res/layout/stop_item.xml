@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+      android:id="@+id/img_dot"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:src="@mipmap/dot"/>
+
+    <TextView
+      android:id="@+id/txt_stopName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_toRightOf="@+id/img_dot"
+      android:textSize="15dp"/>
+    <ImageView
+      android:id="@+id/line"
+      android:layout_width="5dp"
+      android:layout_height="55dp"
+      android:layout_marginTop="-25dp"
+      android:layout_marginStart="17dp"
+      android:layout_below="@+id/img_dot"
+      android:src="@mipmap/line"
+      />
+
+  </RelativeLayout>
+
+
+</LinearLayout>
